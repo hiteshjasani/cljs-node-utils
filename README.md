@@ -4,17 +4,26 @@
 
 A Clojure library of utilities for working with Node.js
 
+Note: this is an early release and the api may change drastically.
+
 ## Usage
 
 ```clojure
 (:require [cnu.interop :refer [jsobj->edn])
 
 ;; wherever we need to convert a javascript object into edn
-(jsobj->edn #js {:foo "bar"})
+(jsobj->edn (clj->js {:foo "bar"}))
+;;=> {:foo "bar"}
+
+(jsobj->edn (clj->js {:foo "bar"}) false)
 ;;=> {"foo" "bar"}
 
-(jsobj->edn #js {:foo "bar"} true)
+;; or arbitrary json to edn
+(json->edn (clj->js {:foo "bar"}))
 ;;=> {:foo "bar"}
+
+(json->edn (clj->js {:foo "bar"}) false)
+;;=> {"foo" "bar"}
 ```
 
 ### In lumo
