@@ -1,5 +1,5 @@
 (defproject org.jasani/cnu "0.1.0"
-  :description "FIXME: write description"
+  :description "A library of clojurescript utilities for use on node.js"
   :url "https://github.com/hiteshjasani/cljs-node-utils"
   :license {:name "Eclipse Public License"
             :url  "http://www.eclipse.org/legal/epl-v10.html"}
