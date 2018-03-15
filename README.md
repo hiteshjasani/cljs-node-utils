@@ -5,7 +5,7 @@ A Clojure library of utilities for working with Node.js
 ## Usage
 
 ```clojure
-(:require [cnu.interop :as cnui])
+(:require [cnu.interop :refer [jsobj->edn])
 
 ;; wherever we need to convert a javascript object into edn
 (jsobj->edn #js {:foo "bar"})
