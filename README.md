@@ -1,5 +1,7 @@
 # cljs-node-utils
 
+[![Clojars Project](https://img.shields.io/clojars/v/org.jasani/cnu.svg)](https://clojars.org/org.jasani/cnu)
+
 A Clojure library of utilities for working with Node.js
 
 ## Usage
