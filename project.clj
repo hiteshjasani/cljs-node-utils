@@ -1,4 +1,4 @@
-(defproject org.jasani/cnu "0.1.1"
+(defproject org.jasani/cnu "0.1.2-SNAPSHOT"
   :description "A library of clojurescript utilities for use on node.js"
   :url "https://github.com/hiteshjasani/cljs-node-utils"
   :license {:name "Eclipse Public License"
